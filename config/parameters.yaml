@@ -1,0 +1,14 @@
+# Input topic
+input_topic: /auv_v2/f_cam/image_raw
+# Processing Frame Rate
+frame_rate: 2
+# Output topic
+output_topic: /detections
+
+# Output results to Image topic
+publish_image_output: True
+# Output Image topic
+output_image_topic: /yolo_output
+# Print verbose output
+verbose: False
+

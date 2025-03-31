@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launch YOLO Detector -->
+  <node pkg="yolo_bbox" type="main.py" name="yolo_bbox" output="screen">
+    <rosparam command="load" file="$(find yolo_bbox)/config/parameters.yaml"/>
+  </node>
+</launch>

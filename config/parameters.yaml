@@ -1,7 +1,7 @@
 # Input topic
-input_topic: /auv_v2/f_cam/image_raw
+input_topic: /auv_v2/f_cam/image_raw/compressed
 # Processing Frame Rate
-frame_rate: 2
+frame_rate: 10
 # Output topic
 output_topic: /detections
 

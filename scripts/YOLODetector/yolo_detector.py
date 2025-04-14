@@ -21,7 +21,7 @@ class YOLODetector():
         self.verbose = rospy.get_param(rospy.get_name() + "/verbose", True)
 
         # Load Model
-        model_path = os.path.join(rospkg.RosPack().get_path('yolo_bbox'), 'model', 'yolov10b.pt')
+        model_path = os.path.join(rospkg.RosPack().get_path('yolo_bbox'), 'model', 'yolov10n.pt')
         self.model = YOLO(model_path)
 
         # Create publishers / subscribers

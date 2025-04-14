@@ -4,9 +4,9 @@
   <version>0.0.0</version>
   <description>YOLO based detection package</description>
 
-  <maintainer email="chhathuranga@gmail.com">Achala</maintainer>
+  <maintainer email="nautiquest80@gmail.com">nauti-quest</maintainer>
   <license>BSD-2.0</license>
-  <author email="chhathuranga@gmail.com">Achala</author>
+  <author email="nautiquest80@gmail.com">nauti-quest</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>

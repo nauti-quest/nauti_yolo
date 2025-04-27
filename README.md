@@ -51,6 +51,11 @@ Launch the YOLO detector node using:
 ```bash
 roslaunch yolo_bbox yolo_detector.launch
 ```
+Also launch a camera image publishing node. 
+
+For hardware, it can either be your laptop webcam, an external USB camera (scripts for this are available in the usb_cam_files and the camera input devices can be switched by editing the config files. 
+
+To launch with simulations, it needs to be launched with the auv_sensors.launch file under the gazebo scripts repository
 
 ## Topics
 

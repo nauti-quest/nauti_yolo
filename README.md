@@ -47,9 +47,9 @@ Before running the node, configure the camera input source:
 
 ## Usage
 
-Make sure the usb-cam camera node from the teleop_files package is running in the background before launching the yolo scripts.]
+Make sure the usb-cam camera node from the teleop_files package is running in the background before launching the yolo scripts.
 
-For hardware, it can either be your laptop webcam, an external USB camera (scripts for this are available in the usb_cam_files and the camera input devices can be switched by editing the config files. 
+For hardware, it can either be your laptop webcam, an external USB camera (scripts for this are available in the usb_cam_files and the camera input devices can be switched by editing the config files). 
 
 To launch with simulations, it needs to be launched with the auv_sensors.launch file under the gazebo scripts repository
 
